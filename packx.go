@@ -124,7 +124,7 @@ func (packx Packx) LengthOf(stream []byte) (int32, error) {
 // Length of the stream starting validly.
 // Length doesn't include length flag itself, it refers to a valid message length after it.
 func LengthOf(stream []byte) (int32, error) {
-	if len(stream) < 4 {
+	if len(stream) < 2 {
 		return 0, errors.New(fmt.Sprintf("stream lenth should be bigger than 4"))
 	}
 	length := binary.BigEndian.Uint32(stream[0:4])
@@ -225,7 +225,7 @@ func UnpackWithMarshaller(stream []byte) (Message, error) {
 
 	// 包长
 	length := binary.BigEndian.Uint32(stream[0:4])
-	if length < 8 {
+	if length < 4 || (len(stream) != int(length)) {
 		return Message{}, errors.New("data length is too short!")
 	}
 
@@ -287,7 +287,8 @@ func UnpackToBlockFromReader(reader io.Reader) ([]byte, error) {
 	if e != nil {
 		return nil, e
 	}
-	var content = make([]byte, length, length)
+
+	var content = make([]byte, length-8, length-8)
 	if e := readUntil(reader, content); e != nil {
 		if e == io.EOF {
 			return nil, e
