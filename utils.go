@@ -1,0 +1,54 @@
+package tcpx
+
+import (
+	"strings"
+)
+
+// Whether s in arr
+// Support %%
+func In(s string, arr []string) bool {
+	for _, v := range arr {
+		if strings.Contains(v, "%") {
+			if strings.HasPrefix(v, "%") && strings.HasSuffix(v, "%") {
+				if strings.Contains(s, string(v[1:len(v)-1])) {
+					return true
+				}
+			} else if strings.HasPrefix(v, "%") {
+				if strings.HasSuffix(s, string(v[1:])) {
+					return true
+				}
+			} else if strings.HasSuffix(v, "%") {
+				if strings.HasPrefix(s, string(v[:len(v)-1])) {
+					return true
+				}
+			}
+		} else {
+			if v == s {
+				return true
+			}
+		}
+	}
+	return false
+}
+
+// Defer eliminates all panic cases and handle panic reason by handlePanicError
+func Defer(f func(), handlePanicError ...func(interface{})) {
+	defer func() {
+		if e := recover(); e != nil {
+			for _, handler := range handlePanicError {
+				handler(e)
+			}
+		}
+	}()
+	f()
+}
+
+// CloseChanel(func(){close(chan)})
+func CloseChanel(f func()) {
+	defer func() {
+		if e := recover(); e != nil {
+			// when close(chan) panic from 'close of closed chan' do nothing
+		}
+	}()
+	f()
+}
