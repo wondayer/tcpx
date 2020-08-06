@@ -124,7 +124,7 @@ func (packx Packx) LengthOf(stream []byte) (int32, error) {
 // Length of the stream starting validly.
 // Length doesn't include length flag itself, it refers to a valid message length after it.
 func LengthOf(stream []byte) (int32, error) {
-	if len(stream) < 2 {
+	if len(stream) < 4 {
 		return 0, errors.New(fmt.Sprintf("stream lenth should be bigger than 4"))
 	}
 	length := binary.BigEndian.Uint32(stream[0:4])
@@ -133,20 +133,20 @@ func LengthOf(stream []byte) (int32, error) {
 
 // Body length of a stream received
 func (packx Packx) BodyLengthOf(stream []byte) (int32, error) {
-	if len(stream) < 8 {
-		return 0, errors.New(fmt.Sprintf("stream lenth should be bigger than 8"))
+	if len(stream) < 4 {
+		return 0, errors.New(fmt.Sprintf("stream lenth should be bigger than 4"))
 	}
 	length := binary.BigEndian.Uint32(stream[0:4])
-	return int32(length) - 8, nil
+	return int32(length), nil
 }
 
 // Body length of a stream received
 func BodyLengthOf(stream []byte) (int32, error) {
-	if len(stream) < 8 {
-		return 0, errors.New(fmt.Sprintf("stream lenth should be bigger than 8"))
+	if len(stream) < 4 {
+		return 0, errors.New(fmt.Sprintf("stream lenth should be bigger than 4"))
 	}
 	length := binary.BigEndian.Uint32(stream[0:4])
-	return int32(length) - 8, nil
+	return int32(length), nil
 }
 
 // body bytes of a block
@@ -159,7 +159,7 @@ func BodyBytesOf(stream []byte) ([]byte, error) {
 	if len(stream) < 8 {
 		return []byte{}, errors.New(fmt.Sprintf("stream lenth should be bigger than 8"))
 	}
-	body := stream[8:len(stream)]
+	body := stream[8:]
 	return body, nil
 }
 
@@ -288,7 +288,7 @@ func UnpackToBlockFromReader(reader io.Reader) ([]byte, error) {
 		return nil, e
 	}
 
-	var content = make([]byte, length-8, length-8)
+	var content = make([]byte, length-4, length-4)
 	if e := readUntil(reader, content); e != nil {
 		if e == io.EOF {
 			return nil, e
