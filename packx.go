@@ -47,7 +47,7 @@ func (packx Packx) Pack(messageID int32, src []byte) ([]byte, error) {
 //       packx.Unpack(stream, &struct2)
 //     ...
 // }
-func (packx Packx) Unpack(stream []byte, dest interface{}) (Message, error) {
+func (packx Packx) Unpack(stream []byte) (Message, error) {
 	return UnpackWithMarshaller(stream)
 }
 

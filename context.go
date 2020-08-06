@@ -344,8 +344,8 @@ func (ctx *Context) SetWriteDeadline(t time.Time) error {
 	return nil
 }
 
-func (ctx *Context) Bind(dest interface{}) (Message, error) {
-	return ctx.Packx.Unpack(ctx.Stream, dest)
+func (ctx *Context) GetRequestMessage() (Message, error) {
+	return ctx.Packx.Unpack(ctx.Stream)
 }
 
 // When context serves for tcp, set context k-v pair of PerConnectionContext.
