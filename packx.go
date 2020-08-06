@@ -159,7 +159,7 @@ func BodyBytesOf(stream []byte) ([]byte, error) {
 	if len(stream) < 8 {
 		return []byte{}, errors.New(fmt.Sprintf("stream lenth should be bigger than 8"))
 	}
-	body := stream[8:]
+	body := stream[8:len(stream)]
 	return body, nil
 }
 
@@ -231,7 +231,7 @@ func UnpackWithMarshaller(stream []byte) (Message, error) {
 
 	return Message{
 		MessageID: int32(binary.BigEndian.Uint32(stream[4:8])),
-		Body:      stream[8:],
+		Body:      stream[8:length],
 	}, nil
 }
 

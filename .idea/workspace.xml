@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6b5e3b8b-ba04-4ddc-94b2-36f58962447c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/context.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packx.go" beforeDir="false" afterPath="$PROJECT_DIR$/packx.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all-language-clients/go/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/all-language-clients/go/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +59,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="640" y="462" key="#GOROOT/0.0.1680.1050@0.0.1680.1050" timestamp="1596596717127" />
-    <state x="427" y="102" key="CommitChangelistDialog2" timestamp="1596700914233">
+    <state x="427" y="102" key="CommitChangelistDialog2" timestamp="1596702438552">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="427" y="102" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1596700914233" />
+    <state x="427" y="102" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1596702438552" />
     <state x="731" y="394" key="EnvironmentVariablesDialog" timestamp="1596693225594">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -72,10 +71,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1596700472503" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1596700915832">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1596702439794">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1596700915832" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1596702439794" />
     <state x="658" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596700678329">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

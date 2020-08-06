@@ -4,7 +4,7 @@ package main
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/fwhezfwhez/tcpx"
+	"github.com/wondayer/tcpx"
 	"log"
 	"net"
 	"os"
