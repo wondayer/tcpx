@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b5e3b8b-ba04-4ddc-94b2-36f58962447c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="$PROJECT_DIR$/../../go1.13.7" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1ff6HR2YHIufXucQdOQRm4k1fc7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.mod" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="乱改自用" />
+    <option name="LAST_COMMIT_MESSAGE" value="乱改自用" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn,direct" />
+      </map>
+    </environment>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="462" key="#GOROOT" timestamp="1596596717127">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="640" y="462" key="#GOROOT/0.0.1680.1050@0.0.1680.1050" timestamp="1596596717127" />
+    <state x="427" y="102" key="CommitChangelistDialog2" timestamp="1596699472405">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="427" y="102" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1596699472405" />
+    <state x="731" y="394" key="EnvironmentVariablesDialog" timestamp="1596693225594">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="731" y="394" key="EnvironmentVariablesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1596693225594" />
+    <state x="349" y="164" key="SettingsEditor" timestamp="1596700472503">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1596700472503" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1596700686072">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1596700686071" />
+    <state x="658" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596700678329">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="658" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1596700678329" />
+  </component>
+</project>
