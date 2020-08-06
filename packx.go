@@ -188,7 +188,6 @@ func PackWithMarshaller(message Message) ([]byte, error) {
 		content = append(content, message.Body...)
 	}
 	binary.BigEndian.PutUint32(lengthBuf, 4+uint32(len(content))) // lengthBuf size 4
-
 	var packet = make([]byte, 0, 1024)
 	packet = append(packet, lengthBuf...)
 	packet = append(packet, content...)
