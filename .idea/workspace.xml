@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b5e3b8b-ba04-4ddc-94b2-36f58962447c" name="Default Changelist" comment="">
+    <list default="true" id="6b5e3b8b-ba04-4ddc-94b2-36f58962447c" name="Default Changelist" comment="乱改自用">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all-language-clients/go/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/all-language-clients/go/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/modules/pack-detail/protobuf/decode/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/modules/pack-detail/protobuf/decode/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/modules/pack-detail/toml/decode/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/modules/pack-detail/toml/decode/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/modules/pack-detail/yaml/decode/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/modules/pack-detail/yaml/decode/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +32,12 @@
   </component>
   <component name="GOROOT" path="$PROJECT_DIR$/../../go1.13.7" />
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
@@ -42,6 +68,17 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.mod" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="乱改自用" />
     <option name="LAST_COMMIT_MESSAGE" value="乱改自用" />
@@ -59,10 +96,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="640" y="462" key="#GOROOT/0.0.1680.1050@0.0.1680.1050" timestamp="1596596717127" />
-    <state x="427" y="102" key="CommitChangelistDialog2" timestamp="1596702438552">
+    <state x="427" y="102" key="CommitChangelistDialog2" timestamp="1596705516136">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="427" y="102" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1596702438552" />
+    <state x="427" y="102" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1596705516136" />
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1596705916947">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1596705916947" />
     <state x="731" y="394" key="EnvironmentVariablesDialog" timestamp="1596693225594">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -71,10 +112,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1596700472503" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1596702439794">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1596704197059">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1596702439794" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1596704197059" />
+    <state x="541" y="28" width="598" height="742" key="find.popup" timestamp="1596705341191">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="541" y="28" width="598" height="742" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1596705341191" />
     <state x="658" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596700678329">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
